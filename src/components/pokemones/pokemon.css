@@ -1,0 +1,23 @@
+.Pokemon_container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 1rem;
+}
+
+.Pokemon_container > .pokemonCard {
+    width: 15rem;
+    height: 15rem;
+    margin: 2rem;
+    cursor: pointer;
+    transition: .25s;
+}
+
+.pokemonCard :hover {
+    transform: scale(1.05);
+}
+
+.buttonArea {
+    margin: 2rem;
+
+}
